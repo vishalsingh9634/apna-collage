@@ -12,7 +12,6 @@ public class searchelement {
         }
         System.out.println("elemnet not found :");              
         return false;
-
     }
     public static void main(String[] args) {
         int matrix[][]=new int[3][3];
