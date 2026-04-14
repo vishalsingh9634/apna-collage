@@ -17,7 +17,7 @@ public class binarysearch {
     }
     public static void main(String[] args) {
         int arr[]={10,20,30,40,50,60,15,25,35,45};
-        int target=40;
+        int target=50;
         System.out.println("index of binary search :"+searching(arr,target));
     }
 }
