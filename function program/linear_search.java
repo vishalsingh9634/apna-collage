@@ -9,7 +9,7 @@ public class linear_search {
     }
     public static void main(String[] args) {
         int num[]={10,20,30,40,50,60,70,80};
-        int target=20;
+        int target=50;
         System.out.println(linear(num, target));
     }
 }
