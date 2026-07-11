@@ -3,18 +3,26 @@ public class classandobj {
     pen p=new pen();
     p.setcolour("blue");
     p.setprice(20);
-    System.out.println(p.colour);
-    System.out.println(p.price);
+    System.out.println(p.getcolour());
+    System.out.println(p.getprice());
+    p.setcolour("yellow");
+    System.out.println(p.getcolour());
     }
 }
 
 class pen{
-    String colour;
-    int price;
+    private String colour;
+    private int price;
+    String getcolour(){
+        return this.colour;
+    }
+    int getprice(){
+        return this.price;
+    }
     void setcolour(String newcolour){
-        colour=newcolour;
+        this.colour=newcolour;
     }
     void setprice(int newprice){
-        price =newprice;
+        this.price =newprice;
     }
 }
